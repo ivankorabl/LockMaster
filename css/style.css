@@ -1,0 +1,103 @@
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+      scroll-behavior: smooth;
+    }
+  }
+
+  *,
+  *::before,
+  *::after {
+      box-sizing: border-box; 
+}
+
+
+
+.header {
+    height: 60px;
+    background-color: #3a3a3a;
+}
+.header__container {
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.header__logo {
+    margin-top: 10px;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 200; 
+    font-size: 2rem; 
+    color: #ffffff; 
+
+}
+.header__menu {
+    margin: 20px 15px;
+    display: flex;
+}
+
+.menu-link a{
+    padding: 3px 6px;
+    text-decoration: none;
+    color: white;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 10;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+.menu-link a:hover{
+    color: #161616;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.content {
+    background-color: #111010;
+    height: 600px;
+}
+
+.content__container{
+    padding: 200px;
+    
+    
+}
+
+.password__name {
+    margin-bottom: 30px;   
+}
+
+.password__name--text {
+    margin-top: 10px;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 200; 
+    font-size: 2rem; 
+    color: #ffffff; 
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.password__input {
+    width: 500px;
+    margin: 10px auto;
+    padding: 30px 20px;
+    background-color: #3a3a3a;
+}
+.password__input--text {
+    text-align: center;
+    width: 100%;
+}
+.password__submit {
+    display: flex;
+    justify-content: center;
+
+}
+.button__submit {
+
+}
+.footer {
+}
+.footer__link {
+}
+.footer__name {
+}

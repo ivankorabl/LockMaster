@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Придумай Пароль</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">LockMaster</div>
+            <nav class="header__menu">
+                <div class="menu-link"><a href="#">памятка</a></div>
+                <div class="menu-link"><a href="#">контакты</a></div>
+                <div class="menu-link"><a href="#">о себе</a></div>
+            </nav>
+        </div>
+    </header>
+    
+    
+    <main class="main">
+        <section class="content">
+            <div class="content__container">
+
+                <div class="password__name">
+                    <div class="password__name--text">Сгенерируй пароль</div>
+                </div>
+
+                <div class="password__length">
+                    <div class="password__length--text">Какой длины хотите пароль?</div>
+                    <input type="text" class="password_lenght--input" placeholder="10">
+                </div>
+
+                <div class="password__input">
+                    <div id="inputPassword" class="password__input--text">Ваш Пароль:</div>
+                    <div id="timePassword" class="password__input--text">Время генерации:</div>
+                </div>
+
+                <div class="password__submit">
+                    <button id="submitButton" class="button__submit">Придумать</button>
+                </div>
+                
+            </div>
+        </section>        
+    </main>
+
+    <footer class="footer">
+        <div class="footer__link"></div>
+        <div class="footer__name"></div>
+    </footer>
+
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
