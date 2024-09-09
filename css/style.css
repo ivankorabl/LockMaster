@@ -53,7 +53,7 @@
 
 .content {
     background-color: #111010;
-    height: 600px;
+    height: 800px;
 }
 
 .content__container{
@@ -76,28 +76,86 @@
     text-transform: uppercase;
 }
 
+.password__length {
+    display: flex;
+    justify-content: center;
+}
+.password__length--text {
+    margin:20px 10px;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 200; 
+    font-size: 1rem; 
+    color: #ffffff; 
+    text-align: center;
+    text-transform: uppercase;
+}
+.password_lenght--input {
+    background-color: #3a3a3a;
+    border-style: none;
+    padding: 10px 5px;
+    width: 9%;
+    text-align: center;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 200; 
+    font-size: 1rem; 
+    color: #ffffff; 
+    text-align: center;
+    text-transform: uppercase;
+}
+
 
 .password__input {
     width: 500px;
     margin: 10px auto;
-    padding: 30px 20px;
+    padding: 30px 10px;
     background-color: #3a3a3a;
 }
 .password__input--text {
     text-align: center;
     width: 100%;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 200; 
+    margin: 10px 2px;
+    color: #ffffff; 
+    text-align: center;
+    text-transform: uppercase;
 }
 .password__submit {
     display: flex;
     justify-content: center;
+    padding: 10px 20px;
 
 }
 .button__submit {
+    background-color:#3a3a3a;
+    padding: 10px 100px;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 200; 
+    margin: 10px 2px;
+    color: #ffffff; 
+    text-align: center;
+    text-transform: uppercase;
 
 }
 .footer {
+    background-color: #161616;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
 }
 .footer__link {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 200; 
+    margin: 40px auto;
+    color: #ffffff; 
+    text-align: center;
+    text-transform: uppercase;
 }
 .footer__name {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 200; 
+    margin: 40px auto;
+    color: #ffffff; 
+    text-align: center;
+    text-transform: uppercase;
 }

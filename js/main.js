@@ -61,7 +61,7 @@ function generatePassword(leng){
         console.log(`Сгенерированный пароль:` + securePassword);
         let timeWork = endTime - startTime;
 
-        resultInput.textContent = "Ваш пароль: " + securePassword;
+        resultInput.textContent = securePassword;
         timeGenerate.textContent = "Время генерации: " + timeWork.toFixed(2) + " сек.";
         
     }
