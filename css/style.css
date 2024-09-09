@@ -144,18 +144,25 @@
     justify-content: space-between;
 }
 .footer__link {
-    font-family: "Dela Gothic One", sans-serif;
-    font-weight: 200; 
+
     margin: 40px auto;
-    color: #ffffff; 
+
     text-align: center;
     text-transform: uppercase;
+
 }
-.footer__name {
+
+.footer__link a{
     font-family: "Dela Gothic One", sans-serif;
     font-weight: 200; 
-    margin: 40px auto;
+    text-decoration: none;
+    padding: 10px 20px;
     color: #ffffff; 
-    text-align: center;
-    text-transform: uppercase;
+}
+
+
+.footer__link a:hover{
+    color: #161616;
+    background-color: white;
+    border-radius: 10px;
 }

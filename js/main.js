@@ -1,6 +1,7 @@
 const resultInput = document.getElementById("inputPassword");
 const submitBtn = document.getElementById("submitButton");
 const timeGenerate = document.getElementById("timePassword")
+const lengthPassword = document.getElementById("lenghtPassword")
 
 
 function generatePassword(leng){
@@ -75,5 +76,17 @@ function generatePassword(leng){
 
 
 submitBtn.onclick = function() {
-    generatePassword(11);
+    //Различные проверки
+    let lenPass = Number(lengthPassword.value);
+
+    if (!lenPass || isNaN(lenPass) || lenPass < 3 || lenPass > 36) {
+        alert("Некорректное значение!");
+    } else {
+        generatePassword(lenPass);
+    }
+
+
+    
+
+
 }
