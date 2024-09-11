@@ -85,8 +85,4 @@ submitBtn.onclick = function() {
         generatePassword(lenPass);
     }
 
-
-    
-
-
 }
